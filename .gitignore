@@ -1,0 +1,62 @@
+#Ignore All Idea
+.idea/*
+
+# Dont Ignore Inspections
+!.idea/inspectionProfiles/Project_Default.xml
+!.idea/jsLinters/eslint.xml
+
+# Dont Ignore Run Configurations
+!.idea/runConfigurations/Storefront__8080_.xml
+!.idea/runConfigurations/RestControllerTest.xml
+
+# Dont Ignore Scope
+!.idea/scopes/scope_settings.xml
+
+# Dont Ignore Project Settings
+!.idea/externalDependencies.xml
+!.idea/checkstyle-idea.xml
+!.idea/compiler.xml
+!.idea/kotlinc.xml
+!.idea/encodings.xml
+!.idea/gradle.xml
+!.idea/jsLibraryMappings.xml
+!.idea/misc.xml
+!.idea/rebel_project.xml
+!.idea/vcs.xml
+
+.sass-cache
+*.iml
+**/server/work/*
+out
+
+# Gradle #
+build
+.gradle
+
+# Node Modules #
+# Yarn will clear this directory of any extraneous files. So don't try to drop a .gitignore file there.
+# Some details at https://github.com/yarnpkg/yarn/issues/616
+node_modules
+
+# Mac OS #
+.DS_Store
+
+# Yarn and Node script wrappers #
+/yarnw
+/nodew
+
+# Jest, @vue/test-utils coverage #
+coverage
+
+# vi
+.*.sw[a-z]
+
+# nvm
+.nvmrc
+
+# yarn
+yarn-error.log
+
+# swagger
+web-api/generated-ts
+web-api/StorefrontAPI.json

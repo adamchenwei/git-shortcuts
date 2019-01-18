@@ -1,0 +1,25 @@
+# remove a submodule by folder directory
+echo "Getting ready to remove $1 from the repo as submodule"
+echo "WARNNING: Before start, ensure your directory are free of any changes in submodules folder."
+
+echo "starting to remove $1 ... "
+
+echo "starting to deinit $1 ... "
+git submodule deinit $1
+echo "completed deinit $1 ... "
+
+echo "starting to remove $1 ... "
+git rm $1
+echo "completed remove $1 ... "
+
+echo "starting to commit removal of $1 ... "
+git commit -m "Removed submodule $1"
+echo "completed commit removal of $1 ... "
+
+echo "starting to remove the module info for $1 ... "
+rm -rf .git/modules/$1
+echo "completed remove the module info for $1 ... "
+
+echo "Done! completely removed $1 ... ready to push change to your branch"
+
+echo "To make sure its actually removed try run git submodule init && git submodule update to see if your removed module still exist"

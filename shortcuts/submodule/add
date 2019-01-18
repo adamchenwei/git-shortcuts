@@ -1,0 +1,18 @@
+# add a submodule by url and folder directory customized
+moduleGitUrl=$1
+moduleDirectory=$2
+
+echo '------ summary BEG----';
+echo $moduleDirectory $moduleGitUrl
+echo '------ summary END----';
+
+echo "adding submodule into $moduleDirectory";
+git submodule add $moduleGitUrl $moduleDirectory
+echo 'submodule added';
+
+echo "init the submodule into $moduleDirectory";
+git submodule init $moduleDirectory
+echo 'submodule init completed, you should now see files in the directory';
+
+echo "commit the module info for $1 ... "
+git commit -m "Added submodule $moduleGitUrl"
