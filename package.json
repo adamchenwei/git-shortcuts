@@ -1,0 +1,31 @@
+{
+  "name": "git-shortcuts",
+  "version": "1.0.0",
+  "description": "collection of git shortcuts and help to setup for me automatically",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamchenwei/git-shortcuts.git"
+  },
+  "keywords": [
+    "github",
+    "git",
+    "shortcut",
+    "git",
+    "command",
+    "command",
+    "line",
+    "bash",
+    "bash",
+    "profile"
+  ],
+  "author": "adamchenwei@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adamchenwei/git-shortcuts/issues"
+  },
+  "homepage": "https://github.com/adamchenwei/git-shortcuts#readme"
+}
