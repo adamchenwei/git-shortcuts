@@ -1,5 +1,7 @@
 # Git Shortcuts
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/adamchenwei/git-shortcuts.svg)](https://greenkeeper.io/)
+
 ## SQUASH
 ### Parameters
 
